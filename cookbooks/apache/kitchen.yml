@@ -2,6 +2,7 @@
 driver:
   name: dokken
   privileged: true  # allows systemd services to start
+  chef_version: 18.2.7
 
 provisioner:
   name: dokken
