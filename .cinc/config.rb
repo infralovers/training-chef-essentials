@@ -1,5 +1,7 @@
 current_dir = File.dirname(__FILE__)
-username = "tool-user-XY"
+userid = ENV['USER_ID']
+username = "tool-user-#{userid}"
+
 log_level                :info
 log_location             STDOUT
 node_name                username
